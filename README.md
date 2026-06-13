@@ -73,6 +73,7 @@ The engineering architecture is strictly decoupled to ensure high-performance co
 ├── dashboard.py                # Standalone data visualization interface
 ├── requirements.txt            # Python ecosystem dependency configurations
 └── README.md                   # System documentation
+```
 🚀 Live Production Deployment
 The ecosystem is split into production environments across Vercel and Render:
 
@@ -94,7 +95,3 @@ pip install -r requirements.txt
 # Launch the local Uvicorn ASGI server
 uvicorn api:app --host 0.0.0.0 --port 8000
 
-### 💡 Why this README works beautifully:
-* **The LaTeX Equations:** Using math parameters like $K_d$/$K_i$ tells recruiters you understand the actual pharmacology behind your AI code.
-* **The Structural Diagram:** It transforms a complex codebase into a highly legible flow chart, immediately displaying your systemic engineering capabilities.
-* **The Tech Badges:** The matching, dark gray minimalist badges maintain that exact aesthetic standard you established in you established in your frontend design.
