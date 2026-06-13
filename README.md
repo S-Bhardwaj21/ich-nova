@@ -77,16 +77,16 @@ The engineering architecture is strictly decoupled to ensure high-performance co
 🚀 Live Production Deployment
 The ecosystem is split into production environments across Vercel and Render:
 
-Backend API Microservice: https://your-backend-service.onrender.com
+Backend API Microservice: https://ich-nova-6w9p.onrender.com
 
-Frontend Analytics Platform: https://your-platform-subdomain.vercel.app
+Frontend Analytics Platform: https://ich-nova-frontend.vercel.app/
 
 Local Development Quickstart
 To spin up the computing engine microservice locally:
 
 Bash
 # Clone the repository
-git clone [https://github.com/yourusername/ICH-NOVA.git](https://github.com/yourusername/ICH-NOVA.git)
+git clone [https://github.com/yourusername/ICH-NOVA.git](https://github.com/S-Bhardwaj21/ICH-NOVA.git)
 cd ICH-NOVA
 
 # Install specific machine learning and chemistry dependencies
