@@ -97,11 +97,19 @@ async def evaluate(input_data: MoleculeInput):
 
 @app.get("/api/results")
 async def get_results():
-    # Serves the data for your "Generated Molecules" table
     try:
-        df = pd.read_csv("final_candidates_rl.csv")
+        # 1. Get the directory where api.py itself lives
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        # 2. Point cleanly to your CSV file path
+        # (If your file lives in a folder like 'data', change it to: os.path.join(base_dir, "data", "final_candidates_rl.csv"))
+        csv_path = os.path.join(base_dir, "final_candidates_rl.csv")
+        
+        # 3. Read the file safely
+        df = pd.read_csv(csv_path)
         return df.to_dict(orient="records")
-    except:
+    except Exception as e:
+        print(f"❌ Table Fetch Error: {str(e)}")
         return []
 
 if __name__ == "__main__":
