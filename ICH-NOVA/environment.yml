@@ -1,0 +1,15 @@
+name: ai_drug_discovery
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - rdkit
+  - numpy
+  - pandas
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - jupyter

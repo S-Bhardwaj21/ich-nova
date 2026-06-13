@@ -1,0 +1,4 @@
+smiles,pred_shelf_life,confidence
+CC(=O)OC1=CC=CC=C1C(=O)O,2.829326868057251,0.9999999403953552
+C1CCCCC1,,
+CCN(CC)CC,,

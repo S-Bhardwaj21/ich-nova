@@ -1,0 +1,10 @@
+streamlit
+torch
+pandas
+matplotlib
+seaborn
+tqdm
+rdkit
+fastapi
+uvicorn
+pydantic

@@ -1,0 +1,7 @@
+smiles,shelf_life_days
+CCO,365
+CC(=O)O,400
+CC(=O)OC1=CC=CC=C1C(=O)O,300
+CCC,450
+C1CCCCC1,500
+C1=CC=CC=C1,480
